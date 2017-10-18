@@ -2,3 +2,6 @@
 /myshop/shop/migrations/__pycache__
 /myshop/myshop/__pycache__
 /myshop/shop/__pycache__
+/.idea
+/myshop/cart/__pycache__
+/myshop/cart/migrations/__pycache__
