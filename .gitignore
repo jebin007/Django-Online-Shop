@@ -5,3 +5,5 @@
 /.idea
 /myshop/cart/__pycache__
 /myshop/cart/migrations/__pycache__
+/myshop/orders/__pycache__
+/myshop/orders/migrations/__pycache__
