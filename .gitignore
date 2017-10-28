@@ -12,3 +12,5 @@
 /myshop/payment/migrations/__pycache__
 /myshop/static
 /venv1
+/myshop/coupons/__pycache__
+/myshop/coupons/migrations/__pycache__
