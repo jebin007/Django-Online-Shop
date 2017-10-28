@@ -39,7 +39,13 @@ def order_detail(obj):
     return "<a href='{}'>View</a>".format(reverse('orders:admin_order_detail', args=[obj.id]))
 
 
+def order_pdf(obj):
+    return "<a href='{}'>PDF</a>".format(reverse('orders:admin_order_pdf', args=[obj.id]))
+    # return '<a href="{}">PDF</a>'.format(reverse('orders:admin_order_pdf',
+    #                                              args=[obj.id]))
+
 order_detail.allow_tags = True
+order_pdf.allow_tags = True
 
 
 class OrderItemInline(admin.TabularInline):
@@ -60,6 +66,7 @@ class OrderAdmin(admin.ModelAdmin):
                     'updated',
                     'paid',
                     order_detail,
+                    order_pdf,
                     ]
     list_filter = ['paid', 'created', 'updated']
     inlines = [OrderItemInline]

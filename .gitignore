@@ -10,3 +10,5 @@
 /myshop/__pycache__/celery.cpython-36.pyc
 /myshop/payment/__pycache__
 /myshop/payment/migrations/__pycache__
+/myshop/static
+/venv1
